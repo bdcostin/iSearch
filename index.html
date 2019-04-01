@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>iSearch</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<header>
+    <nav id="nav">
+        <ul id="nav_content">
+            <li id="nav_content_name">iSearch</li>
+            <li id="nav_content_search"><input type="text" placeholder="Search artists or songs" id="search"><button
+                    class="button dim dib white">Search</button></li>
+        </ul>
+    </nav>
+    <div>
+        <div id="cover_image_layer"></div>
+        <img class="cover-image" src="coverphoto.jpeg">
+        <h1 id="title">iSearch</h1>
+        <p id="description">Search iTunes for artist or songs without leaving your browser.</p>
+    </div>
+</header>
+
+<body>
+    <div id="layout">
+        <div id="display">
+            <div id="artist">
+            </div>
+            <div id="track" class="track_list">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
